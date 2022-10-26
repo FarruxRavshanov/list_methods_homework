@@ -9,3 +9,5 @@ def main(numbers,i):
     """
     a = numbers.pop(i)
     return a
+
+print(main([1, 2, 3, 4, 5], 2))
