@@ -9,6 +9,6 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    b = numbers1.pop()
-    numbers2 = numbers2.insert(0, b)
+    numbers1 = numbers1.pop()
+    numbers2 = numbers2.insert(0, numbers1.pop())
     return numbers2.extend(numbers1)
