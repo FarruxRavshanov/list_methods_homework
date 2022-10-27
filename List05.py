@@ -9,7 +9,6 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    numbers1 = numbers1.pop(-1)
-    numbers2 = numbers2.pop(0)
-    numbers1 = numbers1.append(numbers2)
-    return numbers1
+    b = numbers1.pop()
+    numbers2 = numbers2.insert(0, b)
+    return numbers1.extend(numbers2)
