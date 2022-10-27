@@ -11,4 +11,4 @@ def main(numbers1, numbers2):
     """
     b = numbers1.pop()
     numbers2 = numbers2.insert(0, b)
-    return numbers1.extend(numbers2)
+    return numbers2.extend(numbers1)
