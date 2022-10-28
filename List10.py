@@ -6,4 +6,15 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    a0 = 0
+    a1 = 0
+    i = 0
+    b = a0, a1
+
+    while i < len(list1):
+        if list1[i] == 0:
+            a0 += 1
+        if list1[i] == 1:
+            a1 += 1
+        i += 1
+    return b.split()
