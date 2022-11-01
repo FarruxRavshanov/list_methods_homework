@@ -11,6 +11,6 @@ def main(fruits):
     while i < len(fruits):
         if fruits[i] != 'apple':
             fruits.append(s)
-            i -= 1
+        i -= 1
         i += 1
-    return fruits
+    return s
