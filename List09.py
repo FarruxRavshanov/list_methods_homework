@@ -7,11 +7,11 @@ def main(fruits):
         list: return answer
     """
     count = fruits.count('apple')
-    a = [count]
+    l = [count]
     i = 0
     
     while i < len(fruits):
-        if fruits[i].lower == 'apple':
-            a.append(i)
+        if fruits[i].lower() == 'apple':
+            l.append(i)
         i += 1
-    return a
+    return l
