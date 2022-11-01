@@ -6,11 +6,12 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    a = 0
+    count = fruits.count('apple')
+    a = [count]
     i = 0
     
     while i < len(fruits):
-        if fruits[i] == 'apple':
-            a += 1 and fruits.index()
+        if fruits[i].lower == 'apple':
+            a.append(i)
         i += 1
-    return fruits
+    return a
