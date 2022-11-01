@@ -10,7 +10,7 @@ def main(fruits):
     s = []
     while i < len(fruits):
         if fruits[i] != 'apple':
-            fruits.pop(i)
+            fruits.append(s)
             i -= 1
         i += 1
     return fruits
